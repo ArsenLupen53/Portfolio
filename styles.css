@@ -202,13 +202,13 @@ nav ul li a:hover {
 /*projects*/
 #projects {
   text-align: center;
-
 }
 
 .project-images{
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .project-images .card {
@@ -278,6 +278,8 @@ nav ul li a:hover {
 .project-images .card img{
   width:100%;
   height:100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 
